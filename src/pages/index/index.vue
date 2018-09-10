@@ -1,6 +1,7 @@
 <template>
   <div style="text-align: center;min-height: 100%;overflow-y:hidden">
-    <siders v-if="showSider" v-on:showSiderDetail="changeSider"></siders>
+    <!--<siders v-if="showSider" v-on:showSiderDetail="changeSider"></siders>-->
+    <siders v-on:showSiderDetail="changeSider"></siders>
     <!--<div>-->
       <!--<div :style="{ fontSize: postFontSize + 'em' }">-->
         <!--<Card :text='Myjourney' v-on:enlarge-text="changeSider"></Card>-->
